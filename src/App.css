@@ -7,18 +7,36 @@ body {
     background-color: #E7DFDD;
 }
 
-#projetos {
+.h1-projetos {
+    margin: 10px 0px;
+    text-align: center;
+    font-size: 32pt;
+    color: #160557;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.card-organization {
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-#projetos .projeto-imagem {
-    width: 20em;
-    height: 10em;
-    background-color: violet;
+.sobre-mim {
+    text-align: center;
+    background-color: #160557;
+    color: #E7DFDD;
 }
 
-#projetos .card-projeto {
-    display: flex;
-    flex-direction: column;
+.sobre-mim h1 {
+    padding: 20px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sobre-mim p {
+    font-size: 16pt;
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
 }
