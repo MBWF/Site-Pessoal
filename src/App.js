@@ -6,6 +6,7 @@ import './Global.css';
 import financas from '../src/assets/financas.png'
 import imagem01 from '../src/assets/imagem01.jpg'
 import dashboard from '../src/assets/imagem02.jpg'
+import {AiOutlineInstagram, AiOutlineLinkedin, AiFillGithub} from 'react-icons/ai'
 
 import NavBar from './components/nav-bar/nav-bar'
 import Header from './components/header/header'
@@ -30,6 +31,17 @@ export default function App() {
                 <p>Me chamo Márcio e sou desenvolvedor Front-End Junior<br/>em busca de uma primeira experiência como desenvolvedor. Sou apaixonado pelo<br/> o desenvolvimento de Websites e 
                     mais ainda em projetos feitos em <b>ReactJS</b>.<br/>Atualmente, trabalho como professor de programação na empresa Simplicode,<br/>onde tenho dedicado meu tempo a ensinar jovens a se divertir no desenvolvimento  
                 </p>
+            </div>
+
+            <div className="rede-social">
+                <h1><u>Redes</u> <u>Sociais</u></h1>
+                <div className='botoes'>
+                    
+                        <AiOutlineInstagram className='social'/>
+                        <AiFillGithub className='social' />
+                        <AiOutlineLinkedin className='social' />
+                    
+                </div>
             </div>
 
             <footer>Copyright 2021 <br/>Desenvolvido por Márcio B. W. Filho </footer>

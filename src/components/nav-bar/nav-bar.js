@@ -7,11 +7,10 @@ export default function NavBar() {
         <>
             <div id='nav-bar'>
                 <h1>Márcio Filho</h1>
-
+                
                 <ul>
                     <li>Projetos</li>
                     <li>Sobre Mim</li>
-                    <li>Depoimentos</li>
                     <li>Contato</li>
                 </ul>
             </div>

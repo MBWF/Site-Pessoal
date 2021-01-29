@@ -11,14 +11,14 @@
 }
 
 .imagem {
-    height: 10em;
-    width: 10em;
-    border: 2px solid black;
-    border-radius: 80px;
+    height: 12em;
+    width: 12em;
+    border-radius: 120px;
     background-color: var(--header-color);
 }
 
 .descricao {
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,6 +28,10 @@
 .descricao h1 {
     margin: 20px 0px;
     letter-spacing: 1px;
+}
+
+.descricao h3 {
+    margin-bottom: 20px;
 }
 
 .descricao ul {
