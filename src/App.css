@@ -8,12 +8,12 @@ body {
 }
 
 .h1-projetos {
-    margin: 80px 0px 10px 0px;
+    margin: 80px 0px 40px 0px;
     text-align: center;
-    font-size: 32pt;
+    font-size: 40pt;
     color: var(--primary);
-    font-family: 'Roboto';
-    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 
 .card-organization {
@@ -31,7 +31,7 @@ body {
 }
 
 .sobre-mim h1 {
-    padding: 20px 0px 40px 0px;
+    padding-bottom: 60px;
     font-family: 'Roboto', sans-serif;
 }
 
