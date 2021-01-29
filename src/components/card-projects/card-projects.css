@@ -8,7 +8,7 @@
 }
 
 #card-projects h1 {
-    color: #160557;
+    color: var(--primary);
     margin-bottom: 10px;
 }
 
@@ -31,17 +31,17 @@
 }
 
 .card-descricao button {
-    border: 1px solid white;
-    color: white;
+    border: 1px solid var(--header-color);
+    color: var(--header-color);
     font-size: 12pt;
     padding: 4px 30px;
     border-radius: 15px;
-    background-color: #160557;
+    background-color: var(--primary);
 }
 
 .card-descricao button:hover {
-    background-color: white;
-    color: #160557;
-    border: 1px solid #160557;
+    background-color: var(--header-color);
+    color: var(--primary);
+    border: 1px solid var(--primary);
     transition: 0.5s; 
 }

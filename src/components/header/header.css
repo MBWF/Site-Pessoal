@@ -1,11 +1,11 @@
 #main {
-    background-color: #160557;
+    background-color: var(--primary);
     height: 30em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: var(--header-color);
     font-family: 'Roboto', sans-serif;
     word-spacing: 1px;
 }
@@ -15,7 +15,7 @@
     width: 10em;
     border: 2px solid black;
     border-radius: 80px;
-    background-color: white;
+    background-color: var(--header-color);
 }
 
 .descricao {
@@ -43,14 +43,14 @@
     padding: 2px 15px;
     font-size: 14pt;
     margin-top: 20px;
-    background-color: #0E0B16;
-    border: 1px solid #0E0B16;
-    color: white;
+    background-color: var(--bg-header);
+    border: 1px solid var(--bg-header);
+    color: var(--header-color);
     border-radius: 5px;
 }
 
 .descricao button:hover {
     background-color: transparent;
-    border: 1px solid white;
+    border: 1px solid var(--header-color);
     transition: 1s;
 }

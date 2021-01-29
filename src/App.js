@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './App.css'
+import './Global.css';
 
 import NavBar from './components/nav-bar/nav-bar'
 import Header from './components/header/header'
@@ -22,9 +23,10 @@ export default function App() {
                 <h1>SOBRE MIM</h1>
                 <p>Me chamo Márcio e sou desenvolvedor Front-End Junior<br/>em busca de uma primeira experiência como desenvolvedor. Sou apaixonado pelo<br/> o desenvolvimento de Websites e 
                     mais ainda em projetos feitos em <b>ReactJS</b>.<br/>Atualmente, trabalho como professor de programação na empresa Simplicode,<br/>onde tenho dedicado meu tempo a ensinar jovens a se divertir no desenvolvimento  
-
                 </p>
             </div>
+
+            <footer>Copyright 2021 <br/>Desenvolvido por Márcio B. W. Filho </footer>
         </>
     )
 }

@@ -5,8 +5,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 0px 20px;
-    background-color: #0E0B16;
-    color: #E7DFDD;
+    background-color: var(--bg-header);
+    color: var(--secundary);
     font-family: Roboto, 'sans-serif';
 }
 
